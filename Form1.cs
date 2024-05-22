@@ -6,7 +6,7 @@ namespace WinFormsLab4C_ // Вариант 24
 {
     public partial class Form1 : Form
     {
-        OleDbConnection myConn = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=\"C:\\Users\\fedye\\OneDrive\\Рабочий стол\\myDatabase.accdb\"");
+        OleDbConnection myConn = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\fedye\\source\\repos\\WinFormsLab4C#\\myDatabase.accdb");
         OleDbDataAdapter adapter = new OleDbDataAdapter();
         public Form1()
         {
